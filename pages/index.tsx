@@ -42,6 +42,7 @@ export default function Home() {
       <h1 className="text-4xl text-center text-pink-500">Natisdottir</h1>
       <input
         type="number"
+        inputMode="numeric"
         placeholder="Weight"
         className="text-4xl w-full py-2 px-4 my-4 bg-gray-300"
         value={weight ?? ""}
