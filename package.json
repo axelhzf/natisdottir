@@ -1,0 +1,27 @@
+{
+  "name": "the-cosmetics-recommendation-system",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "lodash": "^4.17.20",
+    "next": "9.5.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.159",
+    "@types/node": "^14.11.2",
+    "@types/react": "^16.9.46",
+    "babel-plugin-lodash": "^3.3.4",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.0.5",
+    "tailwindcss": "^1.4.6",
+    "typescript": "^3.9.7"
+  }
+}
