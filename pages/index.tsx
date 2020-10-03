@@ -56,8 +56,10 @@ export default function Home() {
         <div key={diskPercentage.percentage}>
           <div className="bg-gray-600 text-white py-2 px-4">
             {diskPercentage.percentage}% ={" "}
-            {(weight * diskPercentage.percentage) / 100}kg (
-            {(weight * diskPercentage.percentage) / 100 - bar}kg)
+            {(weight * diskPercentage.percentage) / 100}kg{" "}
+            <span className="text-sm">
+              ({(weight * diskPercentage.percentage) / 100 - bar}kg)
+            </span>
           </div>
           <div className="pb-4 pt-4 px-4 flex">
             {diskPercentage.disks.map((disk) => (
