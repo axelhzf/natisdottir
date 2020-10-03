@@ -38,7 +38,7 @@ export default function Home() {
 
   return (
     <div className="container mx-auto bg-gray-100 text-gray-900 min-h-screen text-xl">
-      <div className="text-4xl pt-4 text-center">🏋️‍♀</div>
+      <div className="text-4xl pt-4 text-center">🏋️</div>
       <h1 className="text-4xl text-center text-pink-500">Natisdottir</h1>
       <input
         type="number"
